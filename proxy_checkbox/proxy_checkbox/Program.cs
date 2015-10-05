@@ -20,14 +20,14 @@ namespace proxy_checkbox
             {
                 //True(プロキシサーバーを使用する)
                 regkey.SetValue("ProxyEnable", 1);
-                Console.WriteLine("プロキシサーバーを使用するチェックボックスを外しました。\n");
+                Console.WriteLine("プロキシサーバーを使用するチェックボックスを付けました。\n");
                 System.Threading.Thread.Sleep(2000);
             }
             else if(intValue==1)
             {
                 //False(プロキシサーバーを使用しない)
                 regkey.SetValue("ProxyEnable", 0);
-                Console.WriteLine("プロキシサーバーを使用するチェックボックスを付けました。\n");
+                Console.WriteLine("プロキシサーバーを使用するチェックボックスを外しました。\n");
                 System.Threading.Thread.Sleep(2000);
             }
             regkey.Close();
