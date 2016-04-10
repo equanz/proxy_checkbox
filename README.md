@@ -28,4 +28,4 @@ $ mv /etc/apt/apt/conf.d/00proxy~~ /etc/apt/apt.conf.d/00proxy~
 これをbash対話式シェルスクリプト化しています。
 
 ## License
-[MIT License](https://github.com/rikyuusima/proxy_checkbox/blob/master/LICENSE.txt)で提供します。
+[MIT License](./LICENSE.txt)で提供します。
