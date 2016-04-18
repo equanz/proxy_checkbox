@@ -33,8 +33,8 @@ else
     while true; do
 	read INPUT
 	if [ "$INPUT" = "Y" -o "$INPUT" = "y" -o "$INPUT" = "yes" -o "$INPUT" = "Yes" ]; then
-	    echo "プロキシ Off"
 	    proxy_change
+	    echo "プロキシ Off"
 	    break
 	elif [ "$INPUT" = "N" -o "$INPUT" = "n" -o "$INPUT" = "no" -o "$INPUT" = "no" ]; then
 	    echo "プロキシ On"
