@@ -22,7 +22,7 @@ yesno () {
 }
 
 sharp_del () {
-    # シャープを消す/etc/apt/apt.conf.d/00proxy
+    # シャープを消す
     sudo sed -i -e "s/^#//" /etc/apt/apt.conf.d/00proxy
 }
 sharp_ins () {
