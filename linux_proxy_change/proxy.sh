@@ -15,8 +15,10 @@ yesno () {
         elif [ "$INPUT" = "N" -o "$INPUT" = "n" -o "$INPUT" = "no" -o "$INPUT" = "no" ]
         then
             ans=0
+	    break
         else
             ans=-1
+	    break
         fi
     done
 }
@@ -45,8 +47,10 @@ then
     elif [ $ans -eq 0 ]
     then
         echo "プロキシ Off"
+	break
     else
         echo "Y/n を入力してください。"
+	break
     fi
 else
     echo "現在プロキシは On  です。"
@@ -60,8 +64,10 @@ else
     elif [ $ans -eq 0 ]
     then
         echo "プロキシ On"
+	break
     else
         echo "Y/n を入力してください。"
+	break
     fi
 fi
 
